@@ -1,10 +1,11 @@
 # SeedStarsDjangoApp
 Application stores names and email addresses in a database using SQLite
 
-Django App
----------------
+#An App for Software Engineer recruitment in SeedStars.
 
-Make an application which stores names and email addresses in a database (SQLite is fine). Make sure it:
+The Application is Built to store names and email addresses in a database using SQLite. 
+
+It aims to:
 
 Has welcome page in http://localhost/ 
 Note: this page has links to list and create functions
@@ -12,6 +13,10 @@ Lists all stored names/email address in http://localhost/list
 Adds a name/email address to the database in http://localhost/add 
 Note: should validate input and show errors
 
-The challenge is a Django based application, so please make sure you use all of Django infrastructure (form, template inheritance, ORM) correctly. Also make sure the app does not have major security problems: CSRF, XSS, SQL Injection.
+The Application has the following Django infrastructure 
 
-Make reasonable assumptions, state your assumptions, and proceed. Once you have completed the challenge, let us know and share your thoughts on the problems/solutions.
+(form, template inheritance, ORM). 
+
+The Application take care of the security such as:
+
+CSRF, XSS, SQL Injection.
