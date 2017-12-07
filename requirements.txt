@@ -1,0 +1,23 @@
+The Application is tested and working perfectly on Django==1.11 And Python3.6
+
+# How to Run This Application 
+
+### 1. Clone the repository:
+
+    git clone https://github.com/abdulhafeez1432/SeedStarsDjangoApp
+
+### 2. Install Run widget_tweaks Modules:
+
+    pip install django-widget-tweaks
+
+### 3. Install Run bootstrapform Modules:
+
+    pip install django-bootstrap-form
+
+### 4. Run the server:
+
+    python manage.py runserver
+
+### 5. And open 127.0.0.1:8000/login in your web browser.
+
+
