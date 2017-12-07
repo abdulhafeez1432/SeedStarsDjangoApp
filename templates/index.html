@@ -1,1 +1,58 @@
+{% extends "base.html "%}
 
+{% block body_block %}
+
+<main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Django App!</h1>
+      <p>Make an application which stores names and email addresses in a database (SQLite is fine). Make sure it:</p>
+      <ul>
+        <li>Has welcome page in http://localhost/</li>
+        <li>Note: this page has links to list and create functions</li>
+        <li>Lists all stored names/email address in http://localhost/list</li>
+        <li>Adds a name/email address to the database in http://localhost/add</li>
+        <li>Note: should validate input and show errors</li>
+      </ul>
+
+    <p>The challenge is a Django based application, so please make sure you use all of Django infrastructure
+      (form, template inheritance, ORM) correctly. Also make sure the app does not have major security problems: CSRF, XSS, SQL Injection.</p>
+    <p>Make reasonable assumptions, state your assumptions, and proceed. Once you have completed the challenge,
+      let us know and share your thoughts on the problems/solutions.</p>
+      <!-- <div class="row">
+        <div class="col-md-6">
+              <p><a class="btn btn-primary btn-lg" href='/add/' role="button">View Data &raquo;</a></p>
+        </div>
+
+        <div class="col-md-6">
+              <p><a class="btn btn-primary btn-lg" href='/list/' role="button">View Data &raquo;</a></p>
+
+        </div>
+
+      </div> -->
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+
+      </div>
+    </div>
+
+    <hr>
+
+  </div> <!-- /container -->
+
+</main>
+
+{% endblock %}
